@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./Assign.css">
+</head>
+
+<body>
+    
+
+<form action="" id="form">
+    <h3>Pls ensure you fill all the empty blocks with the required information.</h3>
+
+    <label for="title" id="count">Title</label>
+    <select name="title" id="title">
+        <option value="title">PROF</option>
+        <option value="mr">MR</option>
+        <option value="mrs">MRS</option>
+        <option value="other">OTHER</option>
+    </select>
+
+    
+    
+    <label id="title" for="Name">Name</label>
+    <div class="names">
+    <input placeholder="@firstname" id="Name" type="text">
+    <input placeholder="@middlename" id="Name" type="text">
+    <input placeholder="@lastname" id="Name" type="text">
+</div>
+
+
+<div class="names">
+
+
+
+    <div id="country">
+        <label for="continent" id="count">Country</label>
+        <select name="continent" id="continent" >
+            <optgroup label="Africa">
+            <option value="">Cameroon</option>
+            <option>Congo</option>
+            <option>Algeria</option>
+            <option>Algeria</option>
+        </select>
+    </div>
+
+
+
+    <div id="country">
+
+        <label id="count" for="state">State</label>
+        
+            <input id="state" list="every-state" placeholder="Enter your state" type="text">
+           
+            <datalist id="every-state">
+            <option value="Abia">Abia</option>
+            <option value="Adamawa">Adamawa</option>
+            <option value="Akwa Ibom">Akwa Ibom</option>
+            <option value="Anambara">Anambara</option>
+            <option value="Bauchi">Bauchi</option>
+            <option value="Bayelsa">Bayelsa</option>
+            <option value="Benue">Benue</option>
+            <option value="Borno">Borno</option>
+            <option value="Cross River">Cross River</option>
+            <option value="Delta">Delta</option>
+            <option value="Ebonyi">Ebonyi</option>
+            <option value="Edo">Edo</option>
+            <option value="Ekiti">Ekiti</option>
+            <option value="Enugu">Enugu</option>
+            <option value="Gombe">Gombe</option>
+            <option value="Imo">Imo</option>
+            <option value="Jigawa">Jigawa</option>
+            <option value="Kaduna">Kaduna</option>
+            <option value="Kano">Kano</option>
+            <option value="Katsina">Katsina</option>
+            <option value="Kebbi">Kebbi</option>
+            <option value="Kogi">Kogi</option>
+            <option value="Kwara">Kwara</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Nasarawa">Nasarawa</option>
+            <option value="Niger">Niger</option>
+            <option value="Oyo">Oyo</option>
+            <option value="Ondo">Ondo</option>
+            <option value="Ogun">Ogun</option>
+            <option value="Osun">Osun</option>
+            <option value="Plateau">Plateau</option>
+            <option value="Rivers">Rivers</option>
+            <option value="Sokoto">Sokoto</option>
+            <option value="Taraba">Taraba</option>
+            <option value="F.C.T" selected>F.C.T</option>
+            <option value="Zamfara">Zamfara</option>
+        </datalist>
+    </div>
+
+    
+    <div id="country">
+        <label id="count" for="gender">Gender</label>
+      
+            <div class="names">
+            <label for="male"  class="sex" name ="gender"><input id="male" type="radio">Male</label>
+            <label for="female"  class="sex" name ="gender"><input id="female" checked type="radio">Female</label>
+            </div>
+        </div>
+
+</div>
+
+<div class="names">
+<div id="country">
+
+<label id="count" for="date">Date of Birth</label>
+<input id="date" type="date">
+</div>
+
+<div id="country">
+<label id="count" for="rating">Rate your User Experience</label>
+<input type="number" id="rating" min="1" max="7" placeholder="@1 for v.poor and 7 for great">
+</div>
+
+
+
+</div>
+
+
+
+
+    <label for="address" id="count">Address</label>
+    <input type="text" id="address">
+    <input type="text" id="address">
+
+
+    <div id="country" class="file">
+        <label for="pic" id="count">Upload Profile Picture</label>
+        <input type="file" accept=".jpeg .png .jpg" id="pic">
+    </div>
+
+    <details>
+        <summary>Are you intreasted in our weekly mails to get the latest Updates? if yes, Click to fill below:</summary>
+        <div class="names summary">
+            <div id="country">
+                <label for="postcode" id="count">Postal Code</label>
+                <input type="text" id="postcode" placeholder="000000" max-length="8">
+            </div>
+            <div id="country">
+                <label for="email" id="count">Email</label>
+                <input type="text" id="mail">
+            </div>
+
+            <div id="country">
+                <label for="phone" id="count">Phone Number</label>
+                <input type="text" id="phone">
+            </div>
+
+        </div>
+    
+    </details>
+
+
+    <!-- Social intreasts -->
+
+<h3>Socials</h3>
+
+<label id="count" for="hobbies"><p id="count">Pls tick your intreasts and hobbies</p></label>
+
+<div class="names">
+
+<label id="count" for="football" id="hobbies">
+    <input type="checkbox" id="football" class="sex">Football
+</label>
+
+<label id="count" for="basketball" id="hobbies">
+    <input type="checkbox" id="basketball" class="sex">Basketball
+</label>
+
+<label for="camping" id="count" id="hobbies">
+    <input type="checkbox" id="camping" class="sex">Camping
+</label>
+
+<label for="movies" id="count" id="hobbies" >
+    <input type="checkbox" id="movies" class="sex">Movies
+</label>
+
+<label id="count" for= "anime" id="hobbies" >
+    <input type="checkbox" id="anime" class="sex">Anime
+</label>
+
+<label id="count" for= "Book Reading" id="hobbies" >
+    <input type="checkbox" id="Book Reading" class="sex">Book Reading
+</label>
+
+<label id="count" for= "chess" id="hobbies" >
+    <input type="checkbox" id="chess" class="sex">Chess
+</label>
+
+<label id="count" for= "Hiking" id="hobbies" >
+    <input type="checkbox" id="Hiking" class="sex">Hiking
+</label>
+
+<label id="count" for= "Music" id="hobbies" >
+    <input type="checkbox" id="Music" class="sex">Music
+</label>
+
+</div>
+
+<label id="count" for="text" ><p id="count">Extra Details</p></label>
+<textarea name="text" id="text" maxlength="240" cols="100%" rows="10" placeholder="Tell us more about youself in 240 words"></textarea>
+
+</form>
+
+<div class="bottom">
+<button class="back" ><a href="./assi.html" >Back</a></button>
+<button class="back"><a href="./finish Assignment.html">Submit</a></button>
+</div>
+</body>
+</html>

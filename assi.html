@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="./Assign.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <h1><i class="fa fa-heart" aria-hidden="true"></i>  Collage Beauty Brand</h1>
+
+    <section class="profile">
+
+        <h2>Sign up to download unlimited full resolution media </h2>
+
+        <div class="all">
+
+        <table>
+            <tr>
+                <td>Sign up</td>
+                <td>Log in</td>
+            </tr>
+        </table>
+        <hr class="hr">
+
+    <div class="places">
+        <!-- Attributes like "for, name, value " etc are for the backend because the backend/ browsers do not recognize css attributes like classes and ids, it enables the browsers to be able to find the address the codes -->
+        <button class="place">Continue with Google</button>
+        <br>
+        <button class="place">Continue with Facebook</button>
+        <br>
+    </div>
+
+    <div class="brand"><hr class="first"><span class="or">or</span><hr class="second"></div>
+
+    <a href="./asform.html"><div class="foot"><button class="join">Click to Fill a Form</button></div> </a>
+
+        <!-- form, input, select, textarea, progress, meter, label 
+        BEM => Box, Element and Modifier-->
+
+    <form class="profile_form"action="">
+        
+
+    <label for="Username">User Name</label>
+        
+    <input id="Username" type="text" placeholder="e.g: user_name@">
+        
+        <!-- <textarea type="text" placeholder="Enter your age ">
+     -->
+     <label for="password">Password</label>
+     <input max-length="8" type="password" name="" id="password" placeholder="********" minlength="8" class="password">
+   
+     <label for="email">Email</label>
+     <input type="email" placeholder="someone@email.com" id="email">
+    
+    <label for="passward strength">Password Strength</label>
+    <progress id="passward strength" max="100" value="70"></progress>
+    <div class="word">
+    <p>Strength <span class="cl">very strong</span></p>
+    <p class="words">at least 8 characters including a number.</p>
+    </div>
+    <p class="policy">This site is protected by reCAPTCHA and the Google <span class="Privacy">Privacy Policy</span> and <span class="Privacy">Terms of Service</span> apply.</p>
+
+</div>
+    </form>
+    
+    </section>
+   
+   
+   
+   
+    
+</body>
+</html>
